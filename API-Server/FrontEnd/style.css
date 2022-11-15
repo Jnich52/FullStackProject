@@ -1,0 +1,197 @@
+/* /* .page {
+    width: 500px;
+    height: 700px;
+    margin: 0 auto;
+    overflow: hidden;          
+    border: solid black;
+    border-width: .05%;
+    background-color: #f97b7b;    /* Add this */
+  /* }
+
+.menu {
+  width: 100%;
+  height: 10%;
+  overflow: hidden;
+  background-color: #466380;
+}
+
+.li {
+  float: left;
+  width: 30%;
+  height: 45%;
+  background-color: aqua;
+  margin: 1%;
+}
+
+.contact {
+  float: left;
+  width: 30%;
+  height: 90%;
+  background-color: rgb(171, 248, 46);
+  margin: 1%;
+}
+
+.logo {
+  float: left;
+  width: 30%;
+  height: 45%;
+  background-color: rgb(216, 72, 24);
+  margin: 1%;
+}
+
+.sidebar {
+  float: left;
+  width: 20%;
+  height: 15%;
+  background-color: rgb(200, 24, 216);
+  margin: 1%;
+}
+
+.content {
+  float: left;
+  width: 70%;
+  height: 45%;
+  background-color: rgb(250, 250, 252);
+  margin: 1%;
+
+}
+
+.footer {
+  float: left;
+  width: 30%;
+  height: 45%;
+  background-color: rgb(95, 95, 133);
+  margin: 1%;
+}
+
+
+:root {
+  --dark: #374151;
+  --darker: #1f2937;
+
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: 'fire sans', sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background: var(--dark);
+  color: #fff;
+}
+
+header {
+  padding: 2rem 1rem;
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+header h1 {
+  font-size: 2.5 rem;
+  font-weight: 300;
+  color: var(--gray);
+  margin-bottom: 1rem;
+}
+
+#New-goal-form {
+  display: flex;
+}
+
+input, button {
+  appearance: none;
+  border: none;
+  outline: none;
+  background: none;
+}
+
+#Edit-goal-submit {
+  flex: 1 1 0%;
+  background-color: var(--darker);
+  padding: 1rem;
+  border-radius: 1rem;
+  margin-right: 1rem;
+  color: var(--light);
+  font-size: 1.25rem;
+} */ */
+
+/* #New-goal-submit {
+  color: var(--pink);
+  font-size: 1.25rem;
+  font-weight: 700;
+  background-image: linear-gradient(to right, var(--pink)),
+  var(--purple);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  cursor: pointer;
+  transition: 0.4s;
+} */
+
+/* #New-goal-submit:hover {
+  opacity: 0.8s;
+}
+
+#New-goal-submit:active {
+opacity: 0.6s;
+}
+
+main {
+  flex: 1 1 0%;
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.goal-list {
+  padding: 1rem;
+}
+
+.goal-list h2 {
+font-size: 1.5 rem;
+font-weight: 300;
+color: var(--gray);
+margin-bottom: 1rem;
+}
+
+#goals .goal {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--darkest);
+  padding: 1rem;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+}
+
+#goals .goal .content .text {
+  color: var(--light);
+  font-size: 1.125rem;
+  width: 100%;
+  display: block;
+  transition: 0.4s;
+}
+
+#goals .goal .content .text:not(:read-only) {
+  color: var(--pink);
+}
+
+.goals .actions button {
+  cursor: pointer;
+  margin: 0 0 5%;
+  font-size: 1.125rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  transition: 0.4s;
+}
+
+.goals .actions button:hover {
+  opacity: 0.8;
+}
+
+.goals .actions button:active {
+  opacity: 0.6;
+} */ */
