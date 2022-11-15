@@ -1,14 +1,14 @@
 const express = require("express");
 const { Client } = require("pg");
 const app = express();
-//const config = require("./config")[process.env.NODE_ENV || "dev"];
-//const PORT = config.port;
+const config = require("./config")[process.env.NODE_ENV || "dev"];
+const PORT = config.port;
 
 const cors = require("cors");
 app.use(express.json());
 app.use(cors());
-const PORT = 8000;
-const connectionString = "postgresql://postgres:docker@127.0.0.1:5432/todolist";
+//const PORT = 8000;
+//const connectionString = "postgresql://postgres:docker@127.0.0.1:5432/todolist";
 const client = new Client({
   connectionString: connectionString,
 });
