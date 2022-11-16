@@ -1,4 +1,4 @@
-/* /* .page {
+/*.page {
     width: 500px;
     height: 700px;
     margin: 0 auto;
@@ -6,7 +6,7 @@
     border: solid black;
     border-width: .05%;
     background-color: #f97b7b;    /* Add this */
-  /* }
+   /*}
 
 .menu {
   width: 100%;
@@ -69,7 +69,7 @@
   --dark: #374151;
   --darker: #1f2937;
 
-}
+}*/ 
 
 * {
   box-sizing: border-box;
@@ -81,11 +81,11 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  background: var(--dark);
-  color: #fff;
+  background-color: bisque;
+  color: rgb(245, 8, 8);
 }
 
-header {
+ header {
   padding: 2rem 1rem;
   max-width: 800px;
   width: 100%;
@@ -103,14 +103,14 @@ header h1 {
   display: flex;
 }
 
-input, button {
+/* input, button {
   appearance: none;
   border: none;
   outline: none;
   background: none;
-}
+} */
 
-#Edit-goal-submit {
+#Edit_goal-submit {
   flex: 1 1 0%;
   background-color: var(--darker);
   padding: 1rem;
@@ -118,9 +118,9 @@ input, button {
   margin-right: 1rem;
   color: var(--light);
   font-size: 1.25rem;
-} */ */
+}  
 
-/* #New-goal-submit {
+#New_goal-submit {
   color: var(--pink);
   font-size: 1.25rem;
   font-weight: 700;
@@ -130,13 +130,16 @@ input, button {
   -webkit-text-fill-color: transparent;
   cursor: pointer;
   transition: 0.4s;
-} */
+  border: 1px;
+  border-radius: 10px;
+  border-color: black;
+} 
 
-/* #New-goal-submit:hover {
+ #New_goal-submit:hover {
   opacity: 0.8s;
 }
 
-#New-goal-submit:active {
+#New_goal-submit:active {
 opacity: 0.6s;
 }
 
@@ -194,4 +197,4 @@ margin-bottom: 1rem;
 
 .goals .actions button:active {
   opacity: 0.6;
-} */ */
+}  

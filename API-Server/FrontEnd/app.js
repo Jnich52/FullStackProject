@@ -1,6 +1,6 @@
 window.addEventListener("load", () => {
-  const form = document.querySelector("New-goal-form");
-  const input = document.querySelector("New-goal-submit");
+  const form = document.querySelector("#New-goal-form");
+  const input = document.querySelector("#New-goal-input");
   const list_el = document.querySelector("#goals");
 
   form.addEventListener("submit", (e) => {
@@ -32,12 +32,12 @@ window.addEventListener("load", () => {
     goal_actions_el.classList.add("actions");
 
     const goal_edit_el = document.createElement("button");
-    goal_edit_el.classList.add("edit");
+    goal_edit_el.classList.add("Edit_Goal");
     goal_edit_el.innerHTML = "Edit Goal";
 
     const goal_complete_el = document.createElement("button");
-    goal_complete_el.classList.add("Goal Complete");
-    goal_complete_el.innerHTML = "Complete Goal";
+    goal_complete_el.classList.add("Goal_Complete");
+    goal_complete_el.innerHTML = "Goal Complete";
 
     goal_actions_el.appendChild(goal_edit_el);
     goal_actions_el.appendChild(goal_complete_el);
@@ -48,9 +48,18 @@ window.addEventListener("load", () => {
     input.value = "";
 
     goal_edit_el.addEventListener("click", () => {
-      goal_input_el.removeAttribute("readonly");
-      goal_input_el.focus();
-      goal_edit_el.innerText = "Save";
+      if (goal_edit_el.innerText.toLowerCase() == "edit") {
+        goal_input_el.removeAttribute("readonly");
+        goal_input_el.focus();
+        goal_edit_el.innerHTML = "input";
+      } else {
+        goal_input_el.setAttribute("readonly", "readonly");
+        goal_edit_el.innerText = "Save";
+      }
+    });
+
+    goal_complete_el.addEventListener("click", () => {
+      list_el.removeChild(goal_el);
     });
   });
 });
